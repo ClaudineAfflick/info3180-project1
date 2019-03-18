@@ -1,0 +1,20 @@
+.main{
+    background-color:#E1F0F6;
+}
+/*bio{*/
+/*    border-radius:3px;*/
+/*    width:300px;*/
+/*    height:80px;*/
+/*}*/
+
+.form-box{
+    border:solid;
+    border-radius:3px;
+    background-color:#fff;
+    padding: 40px;
+    margin: 90px;
+}
+
+.textbox{
+    
+}
