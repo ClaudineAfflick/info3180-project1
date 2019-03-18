@@ -40,10 +40,15 @@ def profile():
     
 @app.route('/profiles/')
 def profiles():
-    
     return render_template('profiles.html')
     
 
+
+@app.route('/profile/<userid>')
+def profileid(userid):
+    userid=userid
+    return render_template('profile.html',userid=userid)
+    
 
 def get_uploaded_images():
     rootdir = os.getcwd()
