@@ -2,26 +2,27 @@
 {% block main %}
 
 <div>
-    <div>
-        <div>
-            <img src="{{url_for('static', filename='', width=100)}}" />
-        </div>
+    <div id="container2">
+        <div id="container3">
+            <div>
+                <img src="{{url_for('static', filename='', width=100)}}" />
+            </div>
         
-        <div>
-            <h2> ROSA DIAZ</h2>
-            <p>{{ userid }}</p>
+            <div>
+                <h2> ROSA DIAZ</h2>
+                <p>{{ userid }}</p>
+            </div>
         </div>
-        <div>
-            <h3>About Me</h3>
-            <p>Now you have the last hidden treasures to carve your own path
-            to sucess.</p>
-        </div>
-        <div>
-        <button type="submit" class="btn btn-primary" id='bttn1'>Send Message</button>
-        <span></span> <button type="submit" class="btn btn-primary" id='bttn2'>Follow</button>
-        </div>
+            <div>
+                <h3>About Me</h3>
+                <p>Now you have the last hidden treasures to carve your own path
+                to sucess.</p>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary" id='bttn1'>Send Message</button>
+                <span></span> <button type="submit" class="btn btn-primary" id='bttn2'>Follow</button>
+            </div>
     </div>
     
-
 </div>
 {% endblock %}

@@ -1,20 +1,18 @@
-.main{
-    background-color:#E1F0F6;
+.backgroundcol{
+    
 }
-/*bio{*/
-/*    border-radius:3px;*/
-/*    width:300px;*/
-/*    height:80px;*/
-/*}*/
 
-.form-box{
-    border:solid;
-    border-radius:3px;
-    background-color:#fff;
-    padding: 40px;
-    margin: 90px;
+#container2{
+    
+    
+}
+#container3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px 290px;
 }
 
 .textbox{
-    
+    padding-left: 300px;
+    padding-right:300px;
 }
