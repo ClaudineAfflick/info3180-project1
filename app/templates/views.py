@@ -48,10 +48,11 @@ def profile():
 @app.route('/viewprofile/')
 def profiled():
     return render_template('profile.html')
+    
 
 @app.route('/profile/<userid>')
 def profileid(userid):
-    userid=userid
+    userid=userid.query.all()
     return render_template('profile.html',userid=userid)
     
 
