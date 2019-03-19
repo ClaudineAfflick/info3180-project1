@@ -45,7 +45,7 @@ def profile():
     
 
     
-@app.route('/profileid/')
+@app.route('/viewprofile/')
 def profiled():
     return render_template('profile.html')
 
